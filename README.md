@@ -1,27 +1,75 @@
 # NgxNullish
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+[![node version](https://img.shields.io/node/v/ngx-nullish.svg)](https://www.npmjs.com/package/ngx-nullish)
+[![npm version](https://badge.fury.io/js/ngx-nullish.svg)](https://badge.fury.io/js/ngx-nullish)
+[![downloads count](https://img.shields.io/npm/dt/ngx-nullish.svg)](https://www.npmjs.com/package/ngx-nullish)
+[![github-ci](https://github.com/piecioshka/ngx-nullish/workflows/Testing/badge.svg?branch=master)](https://github.com/piecioshka/ngx-nullish/actions/)
 
-## Development server
+⚒ Angular Structural Directive which replace `*ngIf` by Nullish Coalescing operator.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Motivation
 
-## Code scaffolding
+We don't like "Falsy Values". When in your stream (RxJS) are numbers (include 0),
+`*ngIf` will coerce `0` to `false`, means UI will not update.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+* :white_check_mark: Returns falsy only for `null` and `undefined`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Installation
 
-## Running unit tests
+```bash
+npm install -g ngx-nullish
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Usage
 
-## Running end-to-end tests
+1. Import deps
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+    ```javascript
+    import { NgxNullishModule } from 'ngx-nullish';
 
-## Further help
+    @NgModule({
+    imports: [
+        ...
+        NgxNullishModule
+    ],
+    ...
+    })
+    export class AppModule { }
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+2. Update template
+
+    ```html
+    <p *ngIf="numbers$ | async as num">
+        {{ num }}
+    </p>
+    ```
+
+    replace to:
+
+    ```html
+    <p *ngxNullish="numbers$ | async as num">
+        {{ num }}
+    </p>
+    ```
+
+## Unit tests
+
+```bash
+npm test
+```
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />
+Feel free to check [issues page](https://github.com/piecioshka/ngx-nullish/issues/).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2020
