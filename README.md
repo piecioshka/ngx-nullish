@@ -21,7 +21,7 @@ When in your stream (RxJS) are numbers (include 0),
 ## Installation
 
 ```bash
-npm install -g ngx-nullish
+npm install ngx-nullish
 ```
 
 ## Usage

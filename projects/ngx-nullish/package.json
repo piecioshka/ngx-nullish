@@ -1,11 +1,31 @@
 {
   "name": "ngx-nullish",
+  "description": "Angular Structural Directive which replace *ngIf by Nullish Coalescing operator",
+  "license": "MIT",
   "version": "0.0.1",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
   },
   "dependencies": {
     "tslib": "^1.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:piecioshka/ngx-nullish.git"
+  },
+  "keywords": [
+    "angular",
+    "structural",
+    "directive",
+    "ngif",
+    "falsy values",
+    "nullish",
+    "coalescing"
+  ]
 }

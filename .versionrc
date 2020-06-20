@@ -1,0 +1,14 @@
+{
+  "packageFiles": [
+    {
+      "filename": "projects/ngx-nullish/package.json",
+      "type": "json"
+    }
+  ],
+  "bumpFiles": [
+    {
+      "filename": "projects/ngx-nullish/package.json",
+      "type": "json"
+    }
+  ]
+}
