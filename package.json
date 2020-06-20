@@ -11,10 +11,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "prebuild": "cp README.md projects/ngx-nullish",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "predeploy": "npm run lint && npm run test && npm run build -- --prod",
+    "deploy": "npm publish --folder ./dist/ngx-nullish"
   },
   "dependencies": {
     "@angular/animations": "~9.1.11",

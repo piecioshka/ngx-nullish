@@ -8,10 +8,10 @@
 
 ## Motivation
 
-We don't like "Falsy Values".
+Nobody likes "Falsy Values".
 
 When in your stream (RxJS) are numbers (include 0),
-*ngIf` will coerce `0` to `false`, means UI will not update.
+`*ngIf` will coerce `0` to `false`, means UI will not update.
 
 ## Features
 
