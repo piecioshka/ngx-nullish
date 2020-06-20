@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
-import { NgxNullishComponent } from './ngx-nullish.component';
 
-
+import { NgxNullishDirective } from './ngx-nullish.directive';
 
 @NgModule({
-  declarations: [NgxNullishComponent],
-  imports: [
-  ],
-  exports: [NgxNullishComponent]
+  declarations: [NgxNullishDirective],
+  imports: [],
+  exports: [NgxNullishDirective],
 })
-export class NgxNullishModule { }
+export class NgxNullishModule {}
