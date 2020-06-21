@@ -15,7 +15,7 @@ When in your stream (RxJS) are numbers (include 0),
 
 ## Features
 
-* :white_check_mark: Returns **falsy** only for `null` and `undefined`
+* :white_check_mark: Returns **falsy** _only_ for: `null`, `undefined`
   * `*ngIf` returns **falsy** for: `null`, `undefined`, `0`, `-0`, `false`, `NaN`, `''`
 
 ## Installation
