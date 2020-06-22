@@ -13,6 +13,10 @@ Nobody likes "Falsy Values".
 When in your stream (RxJS) are numbers (include 0),
 `*ngIf` will coerce `0` to `false`, means UI will not update.
 
+## Demo 🚀
+
+<https://piecioshka.github.io/ngx-nullish-demo/>
+
 ## Features
 
 * :white_check_mark: Returns **falsy** _only_ for: `null`, `undefined`
