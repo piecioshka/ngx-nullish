@@ -1,4 +1,4 @@
-import { TestBed, ComponentFixture, async } from '@angular/core/testing';
+import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { Component } from '@angular/core';
 
 import { NgxNullishDirective } from './ngx-nullish.directive';
@@ -22,13 +22,11 @@ describe('NullishDirective', () => {
   let component: TestComponent = null;
   let nativeElement: HTMLElement = null;
 
-  beforeEach(async(() => {
+  beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [NgxNullishDirective, TestComponent],
-    }).compileComponents();
-  }));
+    })
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(TestComponent);
     component = fixture.componentInstance;
     nativeElement = fixture.elementRef.nativeElement;
