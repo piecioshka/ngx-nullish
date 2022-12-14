@@ -25,7 +25,7 @@ describe('NullishDirective', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [NgxNullishDirective, TestComponent],
-    })
+    });
 
     fixture = TestBed.createComponent(TestComponent);
     component = fixture.componentInstance;
