@@ -6,6 +6,8 @@
 
 ⚒ Angular Structural Directive which replace `*ngIf` by **Nullish Coalescing** operator.
 
+> Give a ⭐️ if this project helped you!
+
 ## Motivation
 
 Nobody likes "Falsy Values".
@@ -65,10 +67,6 @@ npm install ngx-nullish
 
 Contributions, issues and feature requests are welcome!<br />
 Feel free to check [issues page](https://github.com/piecioshka/ngx-nullish/issues/).
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
 
 ## License
 
