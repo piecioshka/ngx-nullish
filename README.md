@@ -63,11 +63,6 @@ npm install ngx-nullish
     </p>
     ```
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />
-Feel free to check [issues page](https://github.com/piecioshka/ngx-nullish/issues/).
-
 ## License
 
 [The MIT License](http://piecioshka.mit-license.org) @ 2020
