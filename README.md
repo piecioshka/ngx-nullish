@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/ngx-nullish.svg)](https://badge.fury.io/js/ngx-nullish)
 [![downloads count](https://img.shields.io/npm/dt/ngx-nullish.svg)](https://www.npmjs.com/package/ngx-nullish)
 [![license](https://img.shields.io/npm/l/ngx-nullish.svg)](https://www.npmjs.com/package/ngx-nullish)
-[![github-ci](https://github.com/piecioshka/ngx-nullish/workflows/Testing/badge.svg?branch=master)](https://github.com/piecioshka/ngx-nullish/actions/)
+[![github-ci](https://github.com/piecioshka/ngx-nullish/workflows/Testing/badge.svg?branch=main)](https://github.com/piecioshka/ngx-nullish/actions/)
 
 ⚒ Angular Structural Directive which replace `*ngIf` by **Nullish Coalescing** operator.
 

@@ -27,5 +27,8 @@
     "falsy values",
     "nullish",
     "coalescing"
-  ]
+  ],
+  "engines": {
+    "node": ">=13.14.0"
+  }
 }
