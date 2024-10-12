@@ -40,11 +40,11 @@ npm install ngx-nullish
     import { NgxNullishModule } from 'ngx-nullish';
 
     @NgModule({
-    imports: [
+        imports: [
+            ...
+            NgxNullishModule
+        ],
         ...
-        NgxNullishModule
-    ],
-    ...
     })
     export class AppModule { }
     ```
