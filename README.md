@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/npm/l/ngx-nullish.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/ngx-nullish/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/ngx-nullish/actions/workflows/testing.yml)
 
-⚒ Angular Structural Directive which replace `*ngIf` by **Nullish Coalescing** operator.
+🔨 Angular Structural Directive which replace `*ngIf` by **Nullish Coalescing** operator.
 
 > Give a ⭐️ if this project helped you!
 
@@ -23,7 +23,7 @@ When in your stream (RxJS) are numbers (include 0),
 
 ## Features
 
-* :white_check_mark: Returns **falsy** _only_ for: `null`, `undefined`
+* ✅ Returns **falsy** _only_ for: `null`, `undefined`
   * `*ngIf` returns **falsy** for: `null`, `undefined`, `0`, `-0`, `false`, `NaN`, `''`
 
 ## Installation
