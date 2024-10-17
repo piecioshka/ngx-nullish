@@ -6,11 +6,11 @@
     "start": "ng serve",
     "prebuild": "cp README.md projects/ngx-nullish && rm -rf dist/",
     "build": "ng build --prod",
-    "test": "ng test",
-    "test:ci": "ng test --no-watch --no-progress --browsers ChromeHeadless",
+    "test": "ng test --no-watch --no-progress --browsers ChromeHeadless",
+    "test:watch": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "predeploy": "npm run lint && npm run test && standard-version && npm run build",
+    "predeploy": "npm run lint && npm run test && npm run build",
     "deploy": "npm publish --folder ./dist/ngx-nullish"
   },
   "private": true,
@@ -45,7 +45,6 @@
     "karma-jasmine-html-reporter": "^1.4.2",
     "ng-packagr": "^9.0.0",
     "protractor": "~7.0.0",
-    "standard-version": "^8.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
