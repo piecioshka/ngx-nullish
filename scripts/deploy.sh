@@ -18,3 +18,6 @@ git tag "$VERSION"
 npm run build
 
 npm publish --folder ./dist/ngx-nullish
+
+git push
+git push --tags
