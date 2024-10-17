@@ -1,8 +1,9 @@
-# NgxNullish
+# ngx-nullish
 
 [![node version](https://img.shields.io/node/v/ngx-nullish.svg)](https://www.npmjs.com/package/ngx-nullish)
 [![npm version](https://badge.fury.io/js/ngx-nullish.svg)](https://badge.fury.io/js/ngx-nullish)
 [![downloads count](https://img.shields.io/npm/dt/ngx-nullish.svg)](https://www.npmjs.com/package/ngx-nullish)
+[![size](https://packagephobia.com/badge?p=ngx-nullish)](https://packagephobia.com/result?p=ngx-nullish)
 [![license](https://img.shields.io/npm/l/ngx-nullish.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/ngx-nullish/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/ngx-nullish/actions/workflows/testing.yml)
 
