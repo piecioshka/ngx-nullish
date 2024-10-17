@@ -66,6 +66,14 @@ npm install ngx-nullish
     </p>
     ```
 
+## Deployment
+
+Please run a script:
+
+```bash
+./scripts/deploy.sh
+```
+
 ## License
 
 [The MIT License](https://piecioshka.mit-license.org) @ 2020
