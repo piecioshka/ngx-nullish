@@ -24,16 +24,16 @@ When in your stream (RxJS) are numbers (include 0),
 
 ## Features
 
-* ✅ Returns **falsy** _only_ for: `null`, `undefined`
-  * `*ngIf` returns **falsy** for: `null`, `undefined`, `0`, `-0`, `false`, `NaN`, `''`
+- ✅ Returns **falsy** _only_ for: `null`, `undefined`
+  - `*ngIf` returns **falsy** for: `null`, `undefined`, `0`, `-0`, `false`, `NaN`, `''`
 
-## Installation
+## Usage
+
+Installation:
 
 ```bash
 npm install ngx-nullish
 ```
-
-## Usage
 
 1. Import deps
 
