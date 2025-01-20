@@ -2,7 +2,7 @@
   "name": "ngx-nullish",
   "description": "🔨 Angular Structural Directive which replace *ngIf by Nullish Coalescing operator",
   "license": "MIT",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": {
     "name": "Piotr Kowalski",
     "email": "piecioshka@gmail.com",
